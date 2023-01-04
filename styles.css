@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto';
 }
@@ -5,7 +10,8 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    border: 3px solid pink
+    border: 3px solid pink;
+    background-color: #1f2937;
 }
 
 .container {
@@ -26,16 +32,76 @@ ul {
 
 a {
     text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .content {
     display: flex;
     border: 3px solid yellow;
+    justify-content: space-between;
 }
 
 img {
-    width: 200px;
+    width: 400px;
     height: auto;
     display: flex;
+    padding-right: 200px;
+}
+
+button {
+    background-color:rgb(80, 108, 236);
+    border-radius: 4px;
+    color: white;
+}
+
+.logo {
+    size: 24px;
+    color: #F9FAF8;
+}
+
+.HTitle {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 500px;
+}
+
+/* MIDDLE PART*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.Mtitle {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.mainimages {
+    display: flex;
+    border: 3px solid red;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    border: 3px solid orange;
+    width: 150px;
+    height: 150px;
+    padding-right: 0px;
+    border-radius: 4px;
 }
 
