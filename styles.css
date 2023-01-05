@@ -12,12 +12,16 @@ body {
     flex-direction: column;
     border: 3px solid pink;
     background-color: #1f2937;
+    height: auto;
 }
 
 .container {
     display: flex;
     border: 3px solid green;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 ul {
@@ -40,19 +44,26 @@ a {
     display: flex;
     border: 3px solid yellow;
     justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 img {
-    width: 400px;
+    width: 600px;
     height: auto;
     display: flex;
-    padding-right: 200px;
 }
 
 button {
-    background-color:rgb(80, 108, 236);
-    border-radius: 4px;
+    background-color:#3882f6;
+    border-radius: 8px;
     color: white;
+    width: 120px;
+    height: 35px;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .logo {
@@ -60,10 +71,11 @@ button {
     color: #F9FAF8;
 }
 
-.HTitle {
+h1 {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
+    width: 400px;
 }
 
 p {
@@ -77,9 +89,10 @@ p {
 .main {
     display: flex;
     flex-direction: column;
+    height: 1000px;
 }
 
-.Mtitle {
+h2 {
     display: flex;
     font-size: 36px;
     font-weight: bolder;
@@ -89,19 +102,96 @@ p {
 .mainimages {
     display: flex;
     border: 3px solid red;
-    justify-content: space-between;
-    padding-left: 300px;
-    padding-right: 300px;
+    justify-content: center;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.square {
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: auto;
+    width: 150px;
+    border: 3px solid red;
+}
+
+figcaption {
+    color: #1f2937;
+    padding: 3px;
+    text-align: center;
+  }
+
+
+.quothor {
+    display: flex;
+    border: 3px solid pink;
+    height: 700px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    font: italic;
+    justify-content: center;
+    align-items: center;
+}
+
+.thor {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    border: 3px solid brown;
+    width: 830px;
+    border: 3px solid green;
+}
+
+#god {
+    display: flex;
+    font-weight: 1500;
+    font-size: 30px;
+    font-style: bolder;
+    justify-content: flex-end;
+    border: 3px solid aqua;
+}
+
+.CTAtime {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    height: 300px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 12px;
+}
+
+.CTAtext {
     display: flex;
     justify-content: center;
-    border: 3px solid orange;
-    width: 150px;
-    height: 150px;
-    padding-right: 0px;
-    border-radius: 4px;
+    flex-direction: column;
+    border: 3px solid wheat;
+}
+
+.CTAbutton {
+    display: flex;
+    align-self: center;
+    border: 3px solid wheat;
+}
+
+.signup2 {
+    background-color: white;
+    color: #3882f6;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
 }
 
