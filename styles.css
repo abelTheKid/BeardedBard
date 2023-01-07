@@ -7,17 +7,17 @@ body {
     font-family: 'Roboto';
 }
 
+/* HEADER */
+
 .header {
     display: flex;
     flex-direction: column;
-    border: 3px solid pink;
-    background-color: #1f2937;
+    background-color: #5c1014;
     height: auto;
 }
 
 .container {
     display: flex;
-    border: 3px solid green;
     justify-content: space-between;
     padding-top: 20px;
     padding-left: 200px;
@@ -26,11 +26,10 @@ body {
 
 ul {
     display: flex;
-    border: 3px solid blue;
-    justify-content: space-evenly;
     list-style: none;
     margin: 0;
     width: 400px;
+    gap: 40px;
     
 }
 
@@ -40,35 +39,40 @@ a {
     color: #E5E7EB;
 }
 
+/* WELCOME */
+
 .content {
     display: flex;
-    border: 3px solid yellow;
     justify-content: space-between;
+    background-color: #5c1014;
     padding-left: 200px;
     padding-right: 200px;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
+
 }
 
-img {
-    width: 600px;
+.mainpic {
+    width: 50%;
     height: auto;
     display: flex;
+    flex-shrink: 0;
 }
 
 button {
-    background-color:#3882f6;
+    background-color:#FBC841;
     border-radius: 8px;
-    color: white;
-    width: 120px;
-    height: 35px;
+    color: #5c1014;
+    width: 150px;
+    height: 55px;
     font-size: 20px;
     margin-top: 20px;
 }
 
-.logo {
-    size: 24px;
-    color: #F9FAF8;
+.logo img {
+    width: 10%;
+    -webkit-filter: invert(1);
+   filter: invert(1);
 }
 
 h1 {
@@ -78,120 +82,150 @@ h1 {
     width: 400px;
 }
 
-p {
+.content p {
     font-size: 18px;
     color: #E5E7EB;
     width: 500px;
 }
 
-/* MIDDLE PART*/
+/* CONTENT */
 
 .main {
     display: flex;
     flex-direction: column;
-    height: 1000px;
+    background-image: url(shire.jpeg);
+
 }
 
-h2 {
+.quotation {
+    display: flex;
+    flex-direction: column;
+}
+
+.CTA {
+    display: flex;
+    flex-direction: column;
+}
+
+.main h2 {
+    padding-top: 20px;
     display: flex;
     font-size: 36px;
     font-weight: bolder;
     justify-content: center;
+    color: #a4de02;
 }
 
 .mainimages {
     display: flex;
-    border: 3px solid red;
+    flex-wrap: wrap;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 200px;
 }
 
 figure {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    margin: auto;
-    width: 150px;
-    border: 3px solid red;
+    width: 170px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 3px solid #FBDF7A;
 }
 
 figcaption {
     color: #1f2937;
     padding: 3px;
     text-align: center;
+    background-color: #FBDF7A;
   }
 
+/* QUOTE */
 
-.quothor {
+.quote {
     display: flex;
+    flex-direction: column;
     border: 3px solid pink;
-    height: 700px;
     background-color: #E5E7EB;
-    font-size: 36px;
-    font-weight: lighter;
-    font: italic;
     justify-content: center;
     align-items: center;
+    padding: 7em 13em;
 }
 
-.thor {
+.quotation {
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
     color: #1f2937;
-    border: 3px solid brown;
+    font-family: 'Roboto';
     width: 830px;
-    border: 3px solid green;
 }
 
-#god {
-    display: flex;
-    font-weight: 1500;
+.author {
+    text-align: right;
     font-size: 30px;
-    font-style: bolder;
-    justify-content: flex-end;
-    border: 3px solid aqua;
+    color: #1f2937;
+    font-family: 'Roboto';
+    font-style: bold;
+}
+
+/* SIGN UP */
+
+.CTA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+    background-image: url(gandalf.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .CTAtime {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #3882f6;
-    height: 300px;
-    margin-top: 90px;
-    margin-bottom: 90px;
-    margin-left: 180px;
-    margin-right: 180px;
-    border-radius: 12px;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+    padding: 40px;
+    width: 50%;
+    border-radius: 10px;
 }
 
 .CTAtext {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 3px solid wheat;
+}
+
+
+strong {
+    color: #1f2937;
+    font-size: 24px;
+}
+
+.CTAtext p {
+    color: #1f2937;
+    font-size: 18px;
 }
 
 .CTAbutton {
     display: flex;
-    align-self: center;
-    border: 3px solid wheat;
 }
 
 .signup2 {
-    background-color: white;
-    color: #3882f6;
+    background-color: #FBC841;
+    color: #5c1014;
+    height: 100px;
+    width: 150px;
 }
+
+/* FOOTER */
 
 .footer {
     display: flex;
-    background-color: #1f2937;
+    background-color: #5c1014;
     font-size: 18px;
     color: #E5E7EB;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    padding: 2em 0;
 }
-
